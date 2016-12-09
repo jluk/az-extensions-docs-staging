@@ -9,21 +9,21 @@ The contents for your documentation must follow the appropriate guidelines below
 Azure extensions are written for the specific operating system, thus all Linux documentation must offer the following:
 
 1. Overview
-* Brief description of extension
-* Explain common use cases
+  * Brief description of extension
+  * Explain common use cases
 
 Please give a brief description of what your extension does, who is offering it, what it does, and how users should expect to use it.
 
 2. Prerequisites
-* Supported OS types
-* Additional resources
+  * Supported OS types
+  * Additional resources
 
 Please enumerate all operating systems your extension is supported on, this is important to stop users from attempting an extension deployment on an unsupported operating system.
 Also include any additional resources required by your extension such as external storage, access to internet, or other cost-incurring resources required by your extension.
 
 3. Configuration
-* Public configuration settings
-* Protected configuration settings
+  * Public configuration settings
+  * Protected configuration settings
 
 For users to deploy extensions properly, you must define and describe each parameter required by your extension and whether it can/should be used as a public or protected configuration.
 
@@ -32,13 +32,13 @@ For users to deploy extensions properly, you must define and describe each param
 This section describes the extension ARM schema. This is required for users to deploy your extension in custom ARM templates if necessary.
 
 5. Azure CLI Deployment
-* azure vm extension set <resource-group> <vm-name> <extension-name> <extension-publisher-name> <extension-version> <public-settings-file> <private-settings-file>
+  * azure vm extension set <resource-group> <vm-name> <extension-name> <extension-publisher-name> <extension-version> <public-settings-file> <private-settings-file>
 
 This refers to the CLI 1.0 version written in Node.js as of today.
 
 6. Troubleshooting and Support
-* Troublshooting tips
-* Support contact (email, website, phone)
+  * Troublshooting tips
+  * Support contact (email, website, phone)
 
 This must include steps the user can take towards troubleshooting your extension. Often the Azure platform does not have insight for extensions after they are deployed and as a result, it is the responsiblity of the publisher to offer troubleshooting support for the extension.
 
