@@ -33,7 +33,7 @@ For users to deploy extensions properly, you must define and describe each param
 This section describes the extension ARM schema. This is required for users to deploy your extension in custom ARM templates if necessary.
 
 ###Azure CLI Deployment
-  * azure vm extension set <resource-group> <vm-name> <extension-name> <extension-publisher-name> <extension-version> <public-settings-file> <private-settings-file>
+  * `foo@bar$ azure vm extension set <resource-group> <vm-name> <extension-name> <extension-publisher-name> <extension-version> <public-settings-file> <private-settings-file>`
 
 This refers to the CLI 1.0 version written in Node.js as of today.
 
