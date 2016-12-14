@@ -37,6 +37,13 @@ This section describes the extension ARM schema. This is required for users to d
 
 This refers to the CLI 1.0 version written in Node.js as of today.
 
+###Portal Deployment (if applicable)
+
+If your extension is available for deployment through the Ibiza portal, document the steps to install the extension. The majority are available through the Extensions Blade:<br>
+![][1]
+However some are specified through other specific Portal blades such as IaaSDiagnostics and must be called out for users to be aware.<br>
+![][2]
+
 ###Troubleshooting and Support
   * Troublshooting tips
   * Support contact (email, website, phone)
@@ -59,3 +66,6 @@ The Windows extension documentation mirrors the above outline for Linux, however
 
 ####Example Windows Extension Documentation
 https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-extensions-oms
+
+[1]: media/readme/ibiza-extensions-blade.png
+[2]: media/readme/iaasdiag-ibiza.png
