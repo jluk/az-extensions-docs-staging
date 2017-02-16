@@ -17,9 +17,9 @@ Please give a brief description of what your extension does, who is offering it,
 
 ###Prerequisites
   * Supported OS types
-  * Additional resources
-
 Please enumerate all operating systems your extension is supported on, this is important to stop users from attempting an extension deployment on an unsupported operating system.
+
+  * Additional resources
 Also include any additional resources required by your extension such as external storage, access to internet, or other cost-incurring resources required by your extension.
 
 ###Configuration
@@ -27,6 +27,10 @@ Also include any additional resources required by your extension such as externa
   * Protected configuration settings
 
 For users to deploy extensions properly, you must define and describe each parameter required by your extension and whether it can/should be used as a public or protected configuration.
+
+##Installing
+
+Please detail all the ways to install your extension (ARM template, CLI, Portal). If your extension is a unique case such as not being able to be manually installed, please detail the circumstances to install and why it cannot be manually installed.
 
 ###Template Deployment
 
