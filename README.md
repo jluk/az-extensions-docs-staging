@@ -1,3 +1,4 @@
+
 # az-extensions-docs-staging
 
 Welcome to the staging repo for Azure VM Extensions documentation. Please follow the guidelines below to write documentation for your Azure VM Extension.
@@ -17,9 +18,11 @@ Please give a brief description of what your extension does, who is offering it,
 
 ###Prerequisites
   * Supported OS types
+  
 Please enumerate all operating systems your extension is supported on, this is important to stop users from attempting an extension deployment on an unsupported operating system.
 
   * Additional resources
+  
 Also include any additional resources required by your extension such as external storage, access to internet, or other cost-incurring resources required by your extension.
 
 ###Configuration
